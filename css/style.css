@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.left{
+  width: 35vw;
+  height: 100vh;
+}
+
+.nossa-senhora{
+  width: 35vw;
+  height: 100vh;
+}
+
+.rigth{
+  background: url('../img/background.png');
+ background-size: 100% 100%;
+  width: 65vw;
+  height: 100vh;
+  display: block;
+}
+
+.title{
+  font-family: 'Bellota';
+  color: #FFF;
+  font-size: 5em;
+  text-align: center;
+}
+
+.text-container{
+  margin-top: 2em;
+}
+
+.countdown {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  border: 2px solid #032878;
+  border-radius: 30px;
+  background: rgb(1, 1, 61);
+  width: 200px;
+  height: 200px;
+}
+
+.time h2 {
+  margin: 0 0 4px;
+  color: #FFF;
+  font-family: 'Bellota';
+  font-size: 6em;
+}
+
+small{
+  color: #FFF;
+  font-family: 'Bellota';
+  font-size: 1.5em;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .time {
+    margin: 5px;
+  }
+
+  .time h2 {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .time small {
+    font-size: 10px;
+  }
+}
+
+.flower{
+  width: 80px;
+  height: 120px;
+  margin: auto 0;
+}
+
+.footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 15px;
+  width: 65%;
+  height: 40px;
+  color: white;
+  font-family: 'Bellota';
+  font-size: 2em;
+  text-align: center;
+}
+
+.img-container{
+  text-align: center;
+}
